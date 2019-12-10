@@ -1,0 +1,17 @@
+{
+  "name": "invoicePrintUpdate",
+  "version": "1.0.0",
+  "description": "Invoice Print Update",
+  "main": "index.js",
+  "scripts": {
+    "start": "node invoicePrintUpdate.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Solomon Muratov",
+  "license": "ISC",
+  "dependencies": {
+    "mssql": "^4.3.0",
+    "nodemailer": "^4.7.0",
+    "path": "^0.12.7"
+  }
+}
